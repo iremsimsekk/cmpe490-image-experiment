@@ -136,7 +136,7 @@ export class ExperimentComponent {
   }, this.bubbleMs);
 
   // (opsiyonel) debug log:
-  console.log('CLICK', { id: this.trial.id, xNorm: xNorm.toFixed(3), yNorm: yNorm.toFixed(3), xPx: Math.round(xPx), yPx: Math.round(yPx) });
+ // console.log('CLICK', { id: this.trial.id, xNorm: xNorm.toFixed(3), yNorm: yNorm.toFixed(3), xPx: Math.round(xPx), yPx: Math.round(yPx) });
 }
 
 goNext() {
