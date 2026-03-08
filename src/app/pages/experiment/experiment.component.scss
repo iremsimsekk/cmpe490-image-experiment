@@ -1,0 +1,146 @@
+.experiment-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 16px;
+}
+
+.exp-header {
+  text-align: center;
+  margin: 16px 0;
+
+  h2 { margin: 0 0 8px; font-size: 1.8rem; }
+
+  .meta {
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    .tag {
+      background: rgba(138, 180, 248, 0.12);
+      border: 1px solid #232734;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+    }
+  }
+}
+
+.click-counter {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  opacity: .85;
+}
+
+/* IMAGE container */
+/* IMAGE container: sabit 16:9, boşluklar burada kalır */
+.img-container {
+  position: relative;
+  width: min(86vw, 960px);
+  aspect-ratio: 16 / 9;
+  height: auto;
+  background: #111;     /* boşluk rengi */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Stage TS ile left/top/width/height alacak */
+.img-stage {
+  position: absolute;
+  pointer-events: none;  /* tıklama stage'e değil click-layer'a */
+ // outline: 2px solid rgba(0, 255, 0, 0.35);
+}
+
+/* img'ler stage'i doldursun */
+.img-blur, .img-sharp {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* stage görsel oranında -> kırpmaz */
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+/* FREE blur */
+.img-blur {
+  filter: blur(10px);
+  transform: none;
+}
+
+/* bubble mask */
+.img-sharp {
+  --x: 50%;
+  --y: 50%;
+  --r: 0px;
+
+  -webkit-mask-image: radial-gradient(circle var(--r) at var(--x) var(--y), white 0%, transparent 60%);
+  -webkit-mask-repeat: no-repeat;
+  mask-image: radial-gradient(circle var(--r) at var(--x) var(--y), white 0%, transparent 60%);
+  mask-repeat: no-repeat;
+}
+
+/* TASK: full net */
+.img-sharp.task-full {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+/* clickLayer artık inset:0 OLMAYACAK — TS stage boyutuna oturtacak */
+.click-layer {
+  position: absolute;
+  z-index: 5;
+  background: transparent;
+  cursor: crosshair;
+  pointer-events: auto;
+//  outline: 2px dashed rgba(255, 0, 0, 0.35);
+}
+
+/* Popup + overlay */
+.task-popup {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.55);
+  backdrop-filter: blur(4px);
+  z-index: 10;
+
+  .task-box { text-align: center; max-width: 460px; padding: 28px; }
+}
+
+.footer-actions { display: flex; justify-content: center; }
+
+.btn { padding: 10px 20px; border-radius: 8px; }
+.btn.primary { background: #8ab4ff; color: #0a0909; }
+
+.limit-warning {
+  position: fixed;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 60, 60, 0.9);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  z-index: 100;
+}
+
+.task-overlay {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(0,0,0,0.65);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.task-label { font-weight: 600; color: #8ab4ff; white-space: nowrap; }
+.task-text { line-height: 1.4; }

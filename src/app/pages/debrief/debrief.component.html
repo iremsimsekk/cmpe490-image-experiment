@@ -1,0 +1,47 @@
+<div class="container center">
+  <div class="card">
+
+    <h2>Deneye katıldığınız için teşekkürler</h2>
+
+    <p class="hint">
+      Deney başarıyla tamamlandı. Bitirmeden önce lütfen aşağıdaki soruyu yanıtlayın.
+    </p>
+
+    <div class="spacer"></div>
+
+    <!-- ===== FINAL QUESTION ===== -->
+    <h3>Soru</h3>
+    <h4>
+      Gördüğünüz görsellerden hangisi ya da hangilerinin yapay zeka tarafından oluşturulduğunu düşünüyorsunuz?
+    </h4>
+    <p class="hint" style="margin-bottom: 20px;">
+      Lütfen uygun olan tüm seçenekleri işaretleyin. En altta Kaydet & Bitir butonu bulunmaktadır.<br>
+    </p>
+
+    <!-- ===== IMAGE SELECTION LIST ===== -->
+<!-- ===== IMAGE SELECTION GRID ===== -->
+<div class="grid">
+  <div
+    class="grid-item"
+    *ngFor="let t of session.trials; let i = index"
+    (click)="toggleAI(t.id)"
+    [class.selected]="selectedAI.has(t.id)"
+  >
+    <img class="thumb" [src]="t.src" [alt]="'Görsel ' + (i+1)" />
+
+    <div class="meta">
+      <input type="checkbox" [checked]="selectedAI.has(t.id)" readonly />
+      <span>Görsel {{ i + 1 }}</span>
+      <span class="selected-text" *ngIf="selectedAI.has(t.id)">(Seçildi)</span>
+    </div>
+  </div>
+</div>
+
+    <div class="spacer"></div>
+
+    <button class="btn primary" (click)="finish()">
+      Kaydet & Bitir
+    </button>
+
+  </div>
+</div>

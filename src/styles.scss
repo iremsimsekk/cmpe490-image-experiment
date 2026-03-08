@@ -1,1 +1,194 @@
 /* You can add global styles to this file, and also import other style files */
+/* === GLOBAL THEME === */
+:root {
+  --bg: #0f1115;        /* koyu arka plan */
+  --card: #161a22;      /* kart içi */
+  --fg: #e8e8ea;        /* yazı rengi */
+  --muted: #9aa0a6;     /* ikincil metin */
+  --accent: #8ab4f8;    /* vurgu (buton) rengi */
+  --accent2: #5a8df6;   /* vurgu degrade ikinci renk */
+}
+
+.image-container {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.stimulus {
+  max-width: 100%;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  display: block;
+  cursor: crosshair;
+  user-select: none;
+  -webkit-user-drag: none;
+  transition: filter 80ms linear;
+}
+
+.blurred {
+  filter: blur(14px);
+}
+
+/* === RESET & BASE === */
+html, body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* === LAYOUT === */
+.container {
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #151821 0%, #0f1115 100%);
+}
+
+/* === CARD === */
+.card {
+  position: relative;
+  background: linear-gradient(145deg, #181b25, #12141a);
+  border: 1px solid #232734;
+  border-radius: 18px;
+  padding: 40px 48px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+  text-align: center;
+  width: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  }
+
+  /* Accent çizgi */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 18px 18px 0 0;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+  }
+
+  
+
+  h2 {
+    font-size: 1.9rem;
+    margin-bottom: 16px;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  p.hint {
+    font-size: 15px;
+    color: var(--muted);
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 420px;
+  }
+}
+
+
+/* === BUTTONS === */
+.btn {
+  background: var(--accent);
+  color: #0b1220;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.25s ease;
+  min-width: 130px;
+
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+
+  &.active {
+    background: var(--accent);
+    filter: brightness(1.2);
+  }
+
+  &.primary {
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    color: #0b1220;
+  }
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* === MISC === */
+.spacer {
+  height: 24px;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* === VIDEO === */
+video {
+  width: 80%;           /* ekranın %80’i kadar genişlik */
+  max-width: 960px;     /* ama en fazla 960px olsun */
+  height: auto;         /* yüksekliği orantılı ayarla */
+  display: block;
+  margin: 20px auto;    /* ortaya hizala */
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.4);
+  border: 1px solid #232734;
+}
+
+.image-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.stimulus {
+  width: 100%;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: crosshair;
+  transition: filter 80ms linear;
+}
+
+.blurred {
+  filter: blur(14px);
+}

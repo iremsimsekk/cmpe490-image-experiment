@@ -1,0 +1,47 @@
+<div class="container center">
+  <div class="card intro-card">
+    <h2>Görsel Dikkat Deneyi</h2>
+
+    <!-- FREE -->
+    <div class="mode-box free" *ngIf="session.counterbalanceInfo?.condition === 'free'">
+      <p class="hint">
+        Bu deneyde size görseller gösterilecektir.
+        Görsellere bakarken <strong>doğrudan görselin üzerine tıklamanız</strong> gerekmektedir.
+      </p>
+
+      <ul class="hint-list">
+        <li>Görsele bakarken dikkatinizi çeken yerlere tıklayın.</li>
+        <li>Görseller karşınıza blurlu bir şekilde gelmektedir. Tıklayınca kısa süreliğine blur koybolur.</li>
+        <li> Her görselde <strong>en az bir kez tıklama</strong> yapmanız zorunludur.</li>
+        <li>Deney sonunda size bir soru sorulacaktır.</li>
+      </ul>
+    </div>
+
+    <!-- TASK -->
+    <div class="mode-box task" *ngIf="session.counterbalanceInfo?.condition === 'task'">
+      <p>
+        Bu deneyde size görseller gösterilecektir.
+        Her görselin başında size <strong>takip etmeniz gereken belirli bir görev</strong> gösterilecektir.
+      </p>
+
+      <ul class="hint-list">
+        <li>Her bir görsele bakmadan önce görev açıklamasını dikkatlice okuyun.</li>
+        <li>Görsele bakarken <strong>verilen görevi dikkate alarak doğrudan görselin üzerine tıklamanız</strong> gerekmektedir.</li> 
+        <li> Her görselde <strong>en az bir kez tıklama</strong> yapmanız zorunludur.</li>
+        <li>Deney sonunda size bir soru sorulacaktır.</li>
+      </ul> 
+    </div>
+
+    <p class="sub-hint">
+      Deney sessiz bir ortamda, tam ekran ve dikkat dağıtıcı unsurlar olmadan yapılmalıdır.
+    </p>
+
+    <button class="btn primary start-btn" (click)="startExperiment()">
+      Deneye Başla
+    </button>
+
+    <p class="id-info" *ngIf="participantId">
+      Katılımcı Kodu: <strong>{{ participantId }}</strong>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,85 @@
+<!-- ============================= -->
+<!-- EXPERIMENT SCREEN (IMAGE) -->
+<!-- ============================= -->
+<div class="experiment-page" *ngIf="trial as tr">
+
+  <header class="exp-header">
+    <h2>Görsel Dikkat Deneyi</h2>
+    <div class="meta">
+      <span class="tag">Görsel: {{ progressLabel }}</span>
+      <span class="tag">Condition: {{ tr.condition }}</span>
+    </div>
+  </header>
+
+  <div class="click-counter">
+    Click: {{ clickCount }} / {{ (tr.condition === 'task') ? 3 : 8 }}
+  </div>
+
+  <!-- Görev popup -->
+  <div class="task-popup" *ngIf="showTaskPopup">
+    <div class="task-box card">
+      <h3>Task</h3>
+      <p *ngIf="tr.instruction; else noInst">{{ tr.instruction }}</p>
+      <ng-template #noInst>
+        <p style="opacity:.7">Bu görsel için görev bilgisi bulunamadı.</p>
+      </ng-template>
+      <button class="btn primary" (click)="startTask()">Başla</button>
+    </div>
+  </div>
+
+  <!-- Hiç tıklama yok uyarısı -->
+  <div class="task-popup" *ngIf="showNoClickPopup">
+    <div class="task-box card">
+      <h3>En az bir tıklama gerekli</h3>
+      <p>Sonraki görsele geçmeden önce bu görsel üzerinde en az bir kez tıklama yapmalısınız.</p>
+      <button class="btn primary" (click)="showNoClickPopup = false">Tamam</button>
+    </div>
+  </div>
+
+  <div class="limit-warning" *ngIf="showLimitWarning">
+    ⚠️ Maksimum tıklama sayısına ulaşıldı
+  </div>
+
+  <!-- TASK overlay -->
+  <div class="task-overlay" *ngIf="tr.condition === 'task' && !showTaskPopup">
+    <span class="task-label">Görev:</span>
+    <span class="task-text">{{ tr.instruction }}</span>
+  </div>
+
+  <!-- IMAGE alanı -->
+<div class="img-container" #imgContainer>
+
+  <!-- Gerçek görüntü alanı -->
+  <div class="img-stage" #imgStage>
+    <img
+      *ngIf="tr.condition === 'free'"
+      class="img-blur"
+      [src]="tr.src"
+      [alt]="tr.id"
+      draggable="false"
+      (load)="onImgLoaded()"
+    />
+
+    <img
+      #imgSharp
+      class="img-sharp"
+      [class.task-full]="tr.condition === 'task'"
+      [src]="tr.src"
+      [alt]="tr.id"
+      draggable="false"
+      (load)="onImgLoaded()"
+    />
+  </div>
+
+  <!-- Tıklama SADECE img-stage alanında -->
+  <div class="click-layer" #clickLayer (click)="onReveal($event)"></div>
+</div>
+
+  <!-- Alt geçiş -->
+  <div class="footer-actions" style="margin-top:40px;">
+    <button class="btn primary" (click)="goNext()">
+      {{ isLastTrial ? 'Bitir' : 'Sonraki görsel' }}
+    </button>
+  </div>
+
+</div>

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "real_01",
+    "src": "assets/images/real/real_01.jpg",
+    "kind": "real",
+    "theme": "street sign",
+    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a close up of a street sign near buildings",
+    "target_object": "street sign",
+    "pair_id": "pair_01"
+  },
+  {
+    "id": "ai_01",
+    "src": "assets/images/ai/ai_01.jpg",
+    "kind": "ai",
+    "theme": "street sign",
+    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a close up of a street sign near buildings",
+    "target_object": "street sign",
+    "pair_id": "pair_01"
+  },
+  {
+    "id": "real_02",
+    "src": "assets/images/real/real_02.jpg",
+    "kind": "real",
+    "theme": "toilet",
+    "instruction": "Bu görselde tuvalet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A white sink and toilet in a small bathroom.",
+    "target_object": "toilet",
+    "pair_id": "pair_02"
+  },
+  {
+    "id": "ai_02",
+    "src": "assets/images/ai/ai_02.jpg",
+    "kind": "ai",
+    "theme": "toilet",
+    "instruction": "Bu görselde tuvalet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A white sink and toilet in a small bathroom.",
+    "target_object": "toilet",
+    "pair_id": "pair_02"
+  },
+  {
+    "id": "real_03",
+    "src": "assets/images/real/real_03.jpg",
+    "kind": "real",
+    "theme": "bicycle",
+    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A bike and a dog on the sidewalk outside a red building.",
+    "target_object": "bicycle",
+    "pair_id": "pair_03"
+  },
+  {
+    "id": "ai_03",
+    "src": "assets/images/ai/ai_03.jpg",
+    "kind": "ai",
+    "theme": "bicycle",
+    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A bike and a dog on the sidewalk outside a red building.",
+    "target_object": "bicycle",
+    "pair_id": "pair_03"
+  },
+  {
+    "id": "real_04",
+    "src": "assets/images/real/real_04.jpg",
+    "kind": "real",
+    "theme": "bicycle",
+    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A bicycle is parked next to a bench.",
+    "target_object": "bicycle",
+    "pair_id": "pair_04"
+  },
+  {
+    "id": "ai_04",
+    "src": "assets/images/ai/ai_04.jpg",
+    "kind": "ai",
+    "theme": "bicycle",
+    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A bicycle is parked next to a bench.",
+    "target_object": "bicycle",
+    "pair_id": "pair_04"
+  },
+  {
+    "id": "real_05",
+    "src": "assets/images/real/real_05.jpg",
+    "kind": "real",
+    "theme": "cake",
+    "instruction": "Bu görselde pasta nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A woman touching a decoration on top of a batman cake.",
+    "target_object": "cake",
+    "pair_id": "pair_05"
+  },
+  {
+    "id": "ai_05",
+    "src": "assets/images/ai/ai_05.jpg",
+    "kind": "ai",
+    "theme": "cake",
+    "instruction": "Bu görselde pasta nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A woman touching a decoration on top of a batman cake.",
+    "target_object": "cake",
+    "pair_id": "pair_05"
+  },
+  {
+    "id": "real_06",
+    "src": "assets/images/real/real_06.jpg",
+    "kind": "real",
+    "theme": "motorcycle",
+    "instruction": "Bu görselde motosiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A parked motorcycle on the side of the road.",
+    "target_object": "motorcycle",
+    "pair_id": "pair_06"
+  },
+  {
+    "id": "ai_06",
+    "src": "assets/images/ai/ai_06.jpg",
+    "kind": "ai",
+    "theme": "motorcycle",
+    "instruction": "Bu görselde motosiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A parked motorcycle on the side of the road.",
+    "target_object": "motorcycle",
+    "pair_id": "pair_06"
+  },
+  {
+    "id": "real_07",
+    "src": "assets/images/real/real_07.jpg",
+    "kind": "real",
+    "theme": "",
+    "instruction": "",
+    "caption": "A baseball player swinging a ball at a bat.",
+    "target_object": "",
+    "pair_id": "pair_07"
+  },
+  {
+    "id": "ai_07",
+    "src": "assets/images/ai/ai_07.jpg",
+    "kind": "ai",
+    "theme": "",
+    "instruction": "",
+    "caption": "A baseball player swinging a ball at a bat.",
+    "target_object": "",
+    "pair_id": "pair_07"
+  },
+  {
+    "id": "real_08",
+    "src": "assets/images/real/real_08.jpg",
+    "kind": "real",
+    "theme": "bench",
+    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A metal bench between two white flowering bushes.",
+    "target_object": "bench",
+    "pair_id": "pair_08"
+  },
+  {
+    "id": "ai_08",
+    "src": "assets/images/ai/ai_08.jpg",
+    "kind": "ai",
+    "theme": "bench",
+    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A metal bench between two white flowering bushes.",
+    "target_object": "bench",
+    "pair_id": "pair_08"
+  },
+  {
+    "id": "real_09",
+    "src": "assets/images/real/real_09.jpg",
+    "kind": "real",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "School buses parked along the curb of a city street.",
+    "target_object": "bus",
+    "pair_id": "pair_09"
+  },
+  {
+    "id": "ai_09",
+    "src": "assets/images/ai/ai_09.jpg",
+    "kind": "ai",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "School buses parked along the curb of a city street.",
+    "target_object": "bus",
+    "pair_id": "pair_09"
+  },
+  {
+    "id": "real_10",
+    "src": "assets/images/real/real_10.jpg",
+    "kind": "real",
+    "theme": "stop sign",
+    "instruction": "Bu görselde dur tabelası nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A stop sign sitting right in a flowering tree",
+    "target_object": "stop sign",
+    "pair_id": "pair_10"
+  },
+  {
+    "id": "ai_10",
+    "src": "assets/images/ai/ai_10.jpg",
+    "kind": "ai",
+    "theme": "stop sign",
+    "instruction": "Bu görselde dur tabelası nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A stop sign sitting right in a flowering tree",
+    "target_object": "stop sign",
+    "pair_id": "pair_10"
+  },
+  {
+    "id": "real_11",
+    "src": "assets/images/real/real_11.jpg",
+    "kind": "real",
+    "theme": "street sign",
+    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A couple of blue street signs hanging off the sides of a pole.",
+    "target_object": "street sign",
+    "pair_id": "pair_11"
+  },
+  {
+    "id": "ai_11",
+    "src": "assets/images/ai/ai_11.jpg",
+    "kind": "ai",
+    "theme": "street sign",
+    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A couple of blue street signs hanging off the sides of a pole.",
+    "target_object": "street sign",
+    "pair_id": "pair_11"
+  },
+  {
+    "id": "real_12",
+    "src": "assets/images/real/real_12.jpg",
+    "kind": "real",
+    "theme": "microwave",
+    "instruction": "Bu görselde mikrodalga fırın nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A microwave oven sitting on top of a counter top.",
+    "target_object": "microwave",
+    "pair_id": "pair_12"
+  },
+  {
+    "id": "ai_12",
+    "src": "assets/images/ai/ai_12.jpg",
+    "kind": "ai",
+    "theme": "microwave",
+    "instruction": "Bu görselde mikrodalga fırın nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A microwave oven sitting on top of a counter top.",
+    "target_object": "microwave",
+    "pair_id": "pair_12"
+  },
+  {
+    "id": "real_13",
+    "src": "assets/images/real/real_13.jpg",
+    "kind": "real",
+    "theme": "airplane",
+    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a silver jet fighter is flying upside down and some cliffs",
+    "target_object": "airplane",
+    "pair_id": "pair_13"
+  },
+  {
+    "id": "ai_13",
+    "src": "assets/images/ai/ai_13.jpg",
+    "kind": "ai",
+    "theme": "airplane",
+    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a silver jet fighter is flying upside down and some cliffs",
+    "target_object": "airplane",
+    "pair_id": "pair_13"
+  },
+  {
+    "id": "real_14",
+    "src": "assets/images/real/real_14.jpg",
+    "kind": "real",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "a crowd of people getting on a  tour bus",
+    "target_object": "bus",
+    "pair_id": "pair_14"
+  },
+  {
+    "id": "ai_14",
+    "src": "assets/images/ai/ai_14.jpg",
+    "kind": "ai",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "a crowd of people getting on a  tour bus",
+    "target_object": "bus",
+    "pair_id": "pair_14"
+  },
+  {
+    "id": "real_15",
+    "src": "assets/images/real/real_15.jpg",
+    "kind": "real",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A busted bathroom sink underneath a mirror in a bathroom.",
+    "target_object": "sink",
+    "pair_id": "pair_15"
+  },
+  {
+    "id": "ai_15",
+    "src": "assets/images/ai/ai_15.jpg",
+    "kind": "ai",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A busted bathroom sink underneath a mirror in a bathroom.",
+    "target_object": "sink",
+    "pair_id": "pair_15"
+  },
+  {
+    "id": "real_16",
+    "src": "assets/images/real/real_16.jpg",
+    "kind": "real",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "a bus that is parked next to some dirt",
+    "target_object": "bus",
+    "pair_id": "pair_16"
+  },
+  {
+    "id": "ai_16",
+    "src": "assets/images/ai/ai_16.jpg",
+    "kind": "ai",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "a bus that is parked next to some dirt",
+    "target_object": "bus",
+    "pair_id": "pair_16"
+  },
+  {
+    "id": "real_17",
+    "src": "assets/images/real/real_17.jpg",
+    "kind": "real",
+    "theme": "cat",
+    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A herd of cattle laying in the grass on the ground.",
+    "target_object": "cat",
+    "pair_id": "pair_17"
+  },
+  {
+    "id": "ai_17",
+    "src": "assets/images/ai/ai_17.jpg",
+    "kind": "ai",
+    "theme": "cat",
+    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A herd of cattle laying in the grass on the ground.",
+    "target_object": "cat",
+    "pair_id": "pair_17"
+  },
+  {
+    "id": "real_18",
+    "src": "assets/images/real/real_18.jpg",
+    "kind": "real",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A toddler reaches into a bowl of grapes in a sink.",
+    "target_object": "sink",
+    "pair_id": "pair_18"
+  },
+  {
+    "id": "ai_18",
+    "src": "assets/images/ai/ai_18.jpg",
+    "kind": "ai",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A toddler reaches into a bowl of grapes in a sink.",
+    "target_object": "sink",
+    "pair_id": "pair_18"
+  },
+  {
+    "id": "real_19",
+    "src": "assets/images/real/real_19.jpg",
+    "kind": "real",
+    "theme": "duck",
+    "instruction": "Bu görselde ördek nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "A mother duck with her ducklings in a pond.",
+    "target_object": "duck",
+    "pair_id": "pair_19"
+  },
+  {
+    "id": "ai_19",
+    "src": "assets/images/ai/ai_19.jpg",
+    "kind": "ai",
+    "theme": "duck",
+    "instruction": "Bu görselde ördek nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "A mother duck with her ducklings in a pond.",
+    "target_object": "duck",
+    "pair_id": "pair_19"
+  },
+  {
+    "id": "real_20",
+    "src": "assets/images/real/real_20.jpg",
+    "kind": "real",
+    "theme": "turkey",
+    "instruction": "Bu görselde hindi nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A turkey or chicken cooks inside a kitchen oven.",
+    "target_object": "turkey",
+    "pair_id": "pair_20"
+  },
+  {
+    "id": "ai_20",
+    "src": "assets/images/ai/ai_20.jpg",
+    "kind": "ai",
+    "theme": "turkey",
+    "instruction": "Bu görselde hindi nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A turkey or chicken cooks inside a kitchen oven.",
+    "target_object": "turkey",
+    "pair_id": "pair_20"
+  },
+  {
+    "id": "real_21",
+    "src": "assets/images/real/real_21.jpg",
+    "kind": "real",
+    "theme": "giraffe",
+    "instruction": "Bu görselde zürafa nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "The giraffe is resting while waiting for food to be served.",
+    "target_object": "giraffe",
+    "pair_id": "pair_21"
+  },
+  {
+    "id": "ai_21",
+    "src": "assets/images/ai/ai_21.jpg",
+    "kind": "ai",
+    "theme": "giraffe",
+    "instruction": "Bu görselde zürafa nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "The giraffe is resting while waiting for food to be served.",
+    "target_object": "giraffe",
+    "pair_id": "pair_21"
+  },
+  {
+    "id": "real_22",
+    "src": "assets/images/real/real_22.jpg",
+    "kind": "real",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A sink under a mirror next to a door way.",
+    "target_object": "sink",
+    "pair_id": "pair_22"
+  },
+  {
+    "id": "ai_22",
+    "src": "assets/images/ai/ai_22.jpg",
+    "kind": "ai",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A sink under a mirror next to a door way.",
+    "target_object": "sink",
+    "pair_id": "pair_22"
+  },
+  {
+    "id": "real_23",
+    "src": "assets/images/real/real_23.jpg",
+    "kind": "real",
+    "theme": "train",
+    "instruction": "Bu görselde tren nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A group of people at a train station with a passing train.",
+    "target_object": "train",
+    "pair_id": "pair_23"
+  },
+  {
+    "id": "ai_23",
+    "src": "assets/images/ai/ai_23.jpg",
+    "kind": "ai",
+    "theme": "train",
+    "instruction": "Bu görselde tren nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A group of people at a train station with a passing train.",
+    "target_object": "train",
+    "pair_id": "pair_23"
+  },
+  {
+    "id": "real_24",
+    "src": "assets/images/real/real_24.jpg",
+    "kind": "real",
+    "theme": "airplane",
+    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a large air plane flying in the air",
+    "target_object": "airplane",
+    "pair_id": "pair_24"
+  },
+  {
+    "id": "ai_24",
+    "src": "assets/images/ai/ai_24.jpg",
+    "kind": "ai",
+    "theme": "airplane",
+    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a large air plane flying in the air",
+    "target_object": "airplane",
+    "pair_id": "pair_24"
+  },
+  {
+    "id": "real_25",
+    "src": "assets/images/real/real_25.jpg",
+    "kind": "real",
+    "theme": "horse",
+    "instruction": "Bu görselde at nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A man riding a horse along a country road while herding a flock of sheep.",
+    "target_object": "horse",
+    "pair_id": "pair_25"
+  },
+  {
+    "id": "ai_25",
+    "src": "assets/images/ai/ai_25.jpg",
+    "kind": "ai",
+    "theme": "horse",
+    "instruction": "Bu görselde at nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A man riding a horse along a country road while herding a flock of sheep.",
+    "target_object": "horse",
+    "pair_id": "pair_25"
+  },
+  {
+    "id": "real_26",
+    "src": "assets/images/real/real_26.jpg",
+    "kind": "real",
+    "theme": "car",
+    "instruction": "Bu görselde araba nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "a car is sitting at a red light in traffic",
+    "target_object": "car",
+    "pair_id": "pair_26"
+  },
+  {
+    "id": "ai_26",
+    "src": "assets/images/ai/ai_26.jpg",
+    "kind": "ai",
+    "theme": "car",
+    "instruction": "Bu görselde araba nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "a car is sitting at a red light in traffic",
+    "target_object": "car",
+    "pair_id": "pair_26"
+  },
+  {
+    "id": "real_27",
+    "src": "assets/images/real/real_27.jpg",
+    "kind": "real",
+    "theme": "bicycle",
+    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A very big lady riding a bike on the street.",
+    "target_object": "bicycle",
+    "pair_id": "pair_27"
+  },
+  {
+    "id": "ai_27",
+    "src": "assets/images/ai/ai_27.jpg",
+    "kind": "ai",
+    "theme": "bicycle",
+    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A very big lady riding a bike on the street.",
+    "target_object": "bicycle",
+    "pair_id": "pair_27"
+  },
+  {
+    "id": "real_28",
+    "src": "assets/images/real/real_28.jpg",
+    "kind": "real",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "A yellow bus is parked near people on the side of the road.",
+    "target_object": "bus",
+    "pair_id": "pair_28"
+  },
+  {
+    "id": "ai_28",
+    "src": "assets/images/ai/ai_28.jpg",
+    "kind": "ai",
+    "theme": "bus",
+    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "caption": "A yellow bus is parked near people on the side of the road.",
+    "target_object": "bus",
+    "pair_id": "pair_28"
+  },
+  {
+    "id": "real_29",
+    "src": "assets/images/real/real_29.jpg",
+    "kind": "real",
+    "theme": "bench",
+    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A wooden bench sitting on a beach next to the ocean.",
+    "target_object": "bench",
+    "pair_id": "pair_29"
+  },
+  {
+    "id": "ai_29",
+    "src": "assets/images/ai/ai_29.jpg",
+    "kind": "ai",
+    "theme": "bench",
+    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A wooden bench sitting on a beach next to the ocean.",
+    "target_object": "bench",
+    "pair_id": "pair_29"
+  },
+  {
+    "id": "real_30",
+    "src": "assets/images/real/real_30.jpg",
+    "kind": "real",
+    "theme": "cat",
+    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a little cat stretching by some apples",
+    "target_object": "cat",
+    "pair_id": "pair_30"
+  },
+  {
+    "id": "ai_30",
+    "src": "assets/images/ai/ai_30.jpg",
+    "kind": "ai",
+    "theme": "cat",
+    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "caption": "a little cat stretching by some apples",
+    "target_object": "cat",
+    "pair_id": "pair_30"
+  },
+  {
+    "id": "real_31",
+    "src": "assets/images/real/real_31.jpg",
+    "kind": "real",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "The container on the sink is holding flowers and a toothbrush.",
+    "target_object": "sink",
+    "pair_id": "pair_31"
+  },
+  {
+    "id": "ai_31",
+    "src": "assets/images/ai/ai_31.jpg",
+    "kind": "ai",
+    "theme": "sink",
+    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "caption": "The container on the sink is holding flowers and a toothbrush.",
+    "target_object": "sink",
+    "pair_id": "pair_31"
+  },
+  {
+    "id": "real_32",
+    "src": "assets/images/real/real_32.jpg",
+    "kind": "real",
+    "theme": "bench",
+    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A cat laying on top of a wooden bench.",
+    "target_object": "bench",
+    "pair_id": "pair_32"
+  },
+  {
+    "id": "ai_32",
+    "src": "assets/images/ai/ai_32.jpg",
+    "kind": "ai",
+    "theme": "bench",
+    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "caption": "A cat laying on top of a wooden bench.",
+    "target_object": "bench",
+    "pair_id": "pair_32"
+  }
+]
