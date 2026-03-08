@@ -22,8 +22,8 @@ export class ExperimentComponent {
   showLimitWarning = false;
 
   // bubble ayarları
-  bubbleRadiusPx = 65;
-  bubbleMs = 350;
+  bubbleRadiusPx = 80;
+  bubbleMs = 450;
   private bubbleTimer: any = null;
 
   trialStartMs = 0;

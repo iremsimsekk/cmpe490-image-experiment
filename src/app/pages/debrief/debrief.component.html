@@ -9,7 +9,6 @@
 
     <div class="spacer"></div>
 
-    <!-- ===== FINAL QUESTION ===== -->
     <h3>Soru</h3>
     <h4>
       Gördüğünüz görsellerden hangisi ya da hangilerinin yapay zeka tarafından oluşturulduğunu düşünüyorsunuz?
@@ -18,28 +17,48 @@
       Lütfen uygun olan tüm seçenekleri işaretleyin. En altta Kaydet & Bitir butonu bulunmaktadır.<br>
     </p>
 
-    <!-- ===== IMAGE SELECTION LIST ===== -->
-<!-- ===== IMAGE SELECTION GRID ===== -->
-<div class="grid">
-  <div
-    class="grid-item"
-    *ngFor="let t of session.trials; let i = index"
-    (click)="toggleAI(t.id)"
-    [class.selected]="selectedAI.has(t.id)"
-  >
-    <img class="thumb" [src]="t.src" [alt]="'Görsel ' + (i+1)" />
+    <!-- ✅ SONUÇLAR -->
+    <div class="results" *ngIf="resultsVisible">
+      <h3>Sonuç</h3>
+      <p>
+        Doğru: <strong>{{ stats.correct }}</strong> / {{ stats.total }}
+        (Accuracy: <strong>{{ (stats.accuracy * 100) | number:'1.0-1' }}%</strong>)
+      </p>
 
-    <div class="meta">
-      <input type="checkbox" [checked]="selectedAI.has(t.id)" readonly />
-      <span>Görsel {{ i + 1 }}</span>
-      <span class="selected-text" *ngIf="selectedAI.has(t.id)">(Seçildi)</span>
+      <div style="margin-top:10px;">
+        <button class="btn" (click)="goHome()">Ana sayfaya dön</button>
+      </div>
     </div>
-  </div>
-</div>
+
+    <!-- ✅ GRID WRAPPER -->
+    <div class="grid">
+      <div
+        class="grid-item"
+        *ngFor="let t of session.trials; let i = index"
+        (click)="toggleAI(t.id)"
+        [class.selected]="selectedAI.has(t.id)"
+        [class.good]="resultsVisible && ((t.kind === 'ai') === selectedAI.has(t.id))"
+        [class.bad]="resultsVisible && ((t.kind === 'ai') !== selectedAI.has(t.id))"
+      >
+        <!-- Truth badge (t burada geçerli) -->
+        <div class="truth" *ngIf="resultsVisible">
+          {{ t.kind === 'ai' ? 'AI' : 'REAL' }}
+        </div>
+
+        <img class="thumb" [src]="t.src" [alt]="'Görsel ' + (i+1)" />
+
+        <div class="meta">
+          <input type="checkbox" [checked]="selectedAI.has(t.id)" readonly />
+          <span>Görsel {{ i + 1 }}</span>
+          <span class="selected-text" *ngIf="selectedAI.has(t.id)">(Seçildi)</span>
+        </div>
+      </div>
+    </div>
 
     <div class="spacer"></div>
 
-    <button class="btn primary" (click)="finish()">
+    <!-- ✅ Finish butonu: sonuç görünüyorsa sakla -->
+    <button class="btn primary" (click)="finish()" *ngIf="!resultsVisible">
       Kaydet & Bitir
     </button>
 

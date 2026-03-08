@@ -4,7 +4,7 @@
     "src": "assets/images/real/real_01.jpg",
     "kind": "real",
     "theme": "street sign",
-    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde sokak tabelasını bulun ve üzerine tıklayın.",
     "caption": "a close up of a street sign near buildings",
     "target_object": "street sign",
     "pair_id": "pair_01"
@@ -14,7 +14,7 @@
     "src": "assets/images/ai/ai_01.jpg",
     "kind": "ai",
     "theme": "street sign",
-    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde sokak tabelasını bulun ve üzerine tıklayın.",
     "caption": "a close up of a street sign near buildings",
     "target_object": "street sign",
     "pair_id": "pair_01"
@@ -24,7 +24,7 @@
     "src": "assets/images/real/real_02.jpg",
     "kind": "real",
     "theme": "toilet",
-    "instruction": "Bu görselde tuvalet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde tuvaleti bulun ve üzerine tıklayın.",
     "caption": "A white sink and toilet in a small bathroom.",
     "target_object": "toilet",
     "pair_id": "pair_02"
@@ -34,7 +34,7 @@
     "src": "assets/images/ai/ai_02.jpg",
     "kind": "ai",
     "theme": "toilet",
-    "instruction": "Bu görselde tuvalet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde tuvaleti bulun ve üzerine tıklayın.",
     "caption": "A white sink and toilet in a small bathroom.",
     "target_object": "toilet",
     "pair_id": "pair_02"
@@ -44,7 +44,7 @@
     "src": "assets/images/real/real_03.jpg",
     "kind": "real",
     "theme": "bicycle",
-    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bisikleti bulun ve üzerine tıklayın.",
     "caption": "A bike and a dog on the sidewalk outside a red building.",
     "target_object": "bicycle",
     "pair_id": "pair_03"
@@ -54,7 +54,7 @@
     "src": "assets/images/ai/ai_03.jpg",
     "kind": "ai",
     "theme": "bicycle",
-    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bisikleti bulun ve üzerine tıklayın.",
     "caption": "A bike and a dog on the sidewalk outside a red building.",
     "target_object": "bicycle",
     "pair_id": "pair_03"
@@ -64,7 +64,7 @@
     "src": "assets/images/real/real_04.jpg",
     "kind": "real",
     "theme": "bicycle",
-    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bisikleti bulun ve üzerine tıklayın.",
     "caption": "A bicycle is parked next to a bench.",
     "target_object": "bicycle",
     "pair_id": "pair_04"
@@ -74,7 +74,7 @@
     "src": "assets/images/ai/ai_04.jpg",
     "kind": "ai",
     "theme": "bicycle",
-    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bisikleti bulun ve üzerine tıklayın.",
     "caption": "A bicycle is parked next to a bench.",
     "target_object": "bicycle",
     "pair_id": "pair_04"
@@ -84,7 +84,7 @@
     "src": "assets/images/real/real_05.jpg",
     "kind": "real",
     "theme": "cake",
-    "instruction": "Bu görselde pasta nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde pastayı bulun ve üzerine tıklayın.",
     "caption": "A woman touching a decoration on top of a batman cake.",
     "target_object": "cake",
     "pair_id": "pair_05"
@@ -94,7 +94,7 @@
     "src": "assets/images/ai/ai_05.jpg",
     "kind": "ai",
     "theme": "cake",
-    "instruction": "Bu görselde pasta nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde pastayı bulun ve üzerine tıklayın.",
     "caption": "A woman touching a decoration on top of a batman cake.",
     "target_object": "cake",
     "pair_id": "pair_05"
@@ -104,7 +104,7 @@
     "src": "assets/images/real/real_06.jpg",
     "kind": "real",
     "theme": "motorcycle",
-    "instruction": "Bu görselde motosiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde motosikleti bulun ve üzerine tıklayın.",
     "caption": "A parked motorcycle on the side of the road.",
     "target_object": "motorcycle",
     "pair_id": "pair_06"
@@ -114,7 +114,7 @@
     "src": "assets/images/ai/ai_06.jpg",
     "kind": "ai",
     "theme": "motorcycle",
-    "instruction": "Bu görselde motosiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde motosikleti bulun ve üzerine tıklayın.",
     "caption": "A parked motorcycle on the side of the road.",
     "target_object": "motorcycle",
     "pair_id": "pair_06"
@@ -144,7 +144,7 @@
     "src": "assets/images/real/real_08.jpg",
     "kind": "real",
     "theme": "bench",
-    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bankı bulun ve üzerine tıklayın.",
     "caption": "A metal bench between two white flowering bushes.",
     "target_object": "bench",
     "pair_id": "pair_08"
@@ -154,7 +154,7 @@
     "src": "assets/images/ai/ai_08.jpg",
     "kind": "ai",
     "theme": "bench",
-    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bankı bulun ve üzerine tıklayın.",
     "caption": "A metal bench between two white flowering bushes.",
     "target_object": "bench",
     "pair_id": "pair_08"
@@ -164,7 +164,7 @@
     "src": "assets/images/real/real_09.jpg",
     "kind": "real",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "School buses parked along the curb of a city street.",
     "target_object": "bus",
     "pair_id": "pair_09"
@@ -174,7 +174,7 @@
     "src": "assets/images/ai/ai_09.jpg",
     "kind": "ai",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "School buses parked along the curb of a city street.",
     "target_object": "bus",
     "pair_id": "pair_09"
@@ -184,7 +184,7 @@
     "src": "assets/images/real/real_10.jpg",
     "kind": "real",
     "theme": "stop sign",
-    "instruction": "Bu görselde dur tabelası nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde dur tabelasını bulun ve üzerine tıklayın.",
     "caption": "A stop sign sitting right in a flowering tree",
     "target_object": "stop sign",
     "pair_id": "pair_10"
@@ -194,7 +194,7 @@
     "src": "assets/images/ai/ai_10.jpg",
     "kind": "ai",
     "theme": "stop sign",
-    "instruction": "Bu görselde dur tabelası nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde dur tabelasını bulun ve üzerine tıklayın.",
     "caption": "A stop sign sitting right in a flowering tree",
     "target_object": "stop sign",
     "pair_id": "pair_10"
@@ -204,7 +204,7 @@
     "src": "assets/images/real/real_11.jpg",
     "kind": "real",
     "theme": "street sign",
-    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde sokak tabelasını bulun ve üzerine tıklayın.",
     "caption": "A couple of blue street signs hanging off the sides of a pole.",
     "target_object": "street sign",
     "pair_id": "pair_11"
@@ -214,7 +214,7 @@
     "src": "assets/images/ai/ai_11.jpg",
     "kind": "ai",
     "theme": "street sign",
-    "instruction": "Bu görselde sokak tabelası nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde sokak tabelasını bulun ve üzerine tıklayın.",
     "caption": "A couple of blue street signs hanging off the sides of a pole.",
     "target_object": "street sign",
     "pair_id": "pair_11"
@@ -224,7 +224,7 @@
     "src": "assets/images/real/real_12.jpg",
     "kind": "real",
     "theme": "microwave",
-    "instruction": "Bu görselde mikrodalga fırın nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde mikrodalga fırınını bulun ve üzerine tıklayın.",
     "caption": "A microwave oven sitting on top of a counter top.",
     "target_object": "microwave",
     "pair_id": "pair_12"
@@ -234,7 +234,7 @@
     "src": "assets/images/ai/ai_12.jpg",
     "kind": "ai",
     "theme": "microwave",
-    "instruction": "Bu görselde mikrodalga fırın nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde mikrodalga fırınını bulun ve üzerine tıklayın.",
     "caption": "A microwave oven sitting on top of a counter top.",
     "target_object": "microwave",
     "pair_id": "pair_12"
@@ -244,7 +244,7 @@
     "src": "assets/images/real/real_13.jpg",
     "kind": "real",
     "theme": "airplane",
-    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde uçağı bulun ve üzerine tıklayın.",
     "caption": "a silver jet fighter is flying upside down and some cliffs",
     "target_object": "airplane",
     "pair_id": "pair_13"
@@ -254,7 +254,7 @@
     "src": "assets/images/ai/ai_13.jpg",
     "kind": "ai",
     "theme": "airplane",
-    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde uçağı bulun ve üzerine tıklayın.",
     "caption": "a silver jet fighter is flying upside down and some cliffs",
     "target_object": "airplane",
     "pair_id": "pair_13"
@@ -264,7 +264,7 @@
     "src": "assets/images/real/real_14.jpg",
     "kind": "real",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "a crowd of people getting on a  tour bus",
     "target_object": "bus",
     "pair_id": "pair_14"
@@ -274,7 +274,7 @@
     "src": "assets/images/ai/ai_14.jpg",
     "kind": "ai",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "a crowd of people getting on a  tour bus",
     "target_object": "bus",
     "pair_id": "pair_14"
@@ -284,7 +284,7 @@
     "src": "assets/images/real/real_15.jpg",
     "kind": "real",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde lavaboyu bulun ve üzerine tıklayın.",
     "caption": "A busted bathroom sink underneath a mirror in a bathroom.",
     "target_object": "sink",
     "pair_id": "pair_15"
@@ -294,7 +294,7 @@
     "src": "assets/images/ai/ai_15.jpg",
     "kind": "ai",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde lavaboyu bulun ve üzerine tıklayın.",
     "caption": "A busted bathroom sink underneath a mirror in a bathroom.",
     "target_object": "sink",
     "pair_id": "pair_15"
@@ -304,7 +304,7 @@
     "src": "assets/images/real/real_16.jpg",
     "kind": "real",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "a bus that is parked next to some dirt",
     "target_object": "bus",
     "pair_id": "pair_16"
@@ -314,7 +314,7 @@
     "src": "assets/images/ai/ai_16.jpg",
     "kind": "ai",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "a bus that is parked next to some dirt",
     "target_object": "bus",
     "pair_id": "pair_16"
@@ -344,7 +344,7 @@
     "src": "assets/images/real/real_18.jpg",
     "kind": "real",
     "theme": "sink",
-    "instruction": "Bu görselde meyve nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde meyveyi bulun ve üzerine tıklayın.",
     "caption": "A toddler reaches into a bowl of grapes in a sink.",
     "target_object": "fruit",
     "pair_id": "pair_18"
@@ -354,7 +354,7 @@
     "src": "assets/images/ai/ai_18.jpg",
     "kind": "ai",
     "theme": "sink",
-    "instruction": "Bu görselde meyve nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde meyveyi bulun ve üzerine tıklayın.",
     "caption": "A toddler reaches into a bowl of grapes in a sink.",
     "target_object": "fruit",
     "pair_id": "pair_18"
@@ -364,7 +364,7 @@
     "src": "assets/images/real/real_19.jpg",
     "kind": "real",
     "theme": "duck",
-    "instruction": "Bu görselde ördek nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde ördeği bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "A mother duck with her ducklings in a pond.",
     "target_object": "duck",
     "pair_id": "pair_19"
@@ -374,7 +374,7 @@
     "src": "assets/images/ai/ai_19.jpg",
     "kind": "ai",
     "theme": "duck",
-    "instruction": "Bu görselde ördek nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde ördeği bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "A mother duck with her ducklings in a pond.",
     "target_object": "duck",
     "pair_id": "pair_19"
@@ -384,7 +384,7 @@
     "src": "assets/images/real/real_20.jpg",
     "kind": "real",
     "theme": "turkey",
-    "instruction": "Bu görselde hindi nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde hindiyi bulun ve üzerine tıklayın.",
     "caption": "A turkey or chicken cooks inside a kitchen oven.",
     "target_object": "turkey",
     "pair_id": "pair_20"
@@ -394,7 +394,7 @@
     "src": "assets/images/ai/ai_20.jpg",
     "kind": "ai",
     "theme": "turkey",
-    "instruction": "Bu görselde hindi nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde hindiyi bulun ve üzerine tıklayın.",
     "caption": "A turkey or chicken cooks inside a kitchen oven.",
     "target_object": "turkey",
     "pair_id": "pair_20"
@@ -404,7 +404,7 @@
     "src": "assets/images/real/real_21.jpg",
     "kind": "real",
     "theme": "giraffe",
-    "instruction": "Bu görselde zürafa nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde zürafayı bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "The giraffe is resting while waiting for food to be served.",
     "target_object": "giraffe",
     "pair_id": "pair_21"
@@ -414,7 +414,7 @@
     "src": "assets/images/ai/ai_21.jpg",
     "kind": "ai",
     "theme": "giraffe",
-    "instruction": "Bu görselde zürafa nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde zürafayı bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "The giraffe is resting while waiting for food to be served.",
     "target_object": "giraffe",
     "pair_id": "pair_21"
@@ -424,7 +424,7 @@
     "src": "assets/images/real/real_22.jpg",
     "kind": "real",
     "theme": "sink",
-    "instruction": "Bu görselde ayna nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde aynayı bulun ve üzerine tıklayın.",
     "caption": "A sink under a mirror next to a door way.",
     "target_object": "sink",
     "pair_id": "pair_22"
@@ -434,7 +434,7 @@
     "src": "assets/images/ai/ai_22.jpg",
     "kind": "ai",
     "theme": "sink",
-    "instruction": "Bu görselde ayna nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde aynayı bulun ve üzerine tıklayın.",
     "caption": "A sink under a mirror next to a door way.",
     "target_object": "sink",
     "pair_id": "pair_22"
@@ -444,7 +444,7 @@
     "src": "assets/images/real/real_23.jpg",
     "kind": "real",
     "theme": "train",
-    "instruction": "Bu görselde tren nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde treni bulun ve üzerine tıklayın.",
     "caption": "A group of people at a train station with a passing train.",
     "target_object": "train",
     "pair_id": "pair_23"
@@ -454,7 +454,7 @@
     "src": "assets/images/ai/ai_23.jpg",
     "kind": "ai",
     "theme": "train",
-    "instruction": "Bu görselde tren nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde treni bulun ve üzerine tıklayın.",
     "caption": "A group of people at a train station with a passing train.",
     "target_object": "train",
     "pair_id": "pair_23"
@@ -464,7 +464,7 @@
     "src": "assets/images/real/real_24.jpg",
     "kind": "real",
     "theme": "airplane",
-    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde uçağı bulun ve üzerine tıklayın.",
     "caption": "a large air plane flying in the air",
     "target_object": "airplane",
     "pair_id": "pair_24"
@@ -474,7 +474,7 @@
     "src": "assets/images/ai/ai_24.jpg",
     "kind": "ai",
     "theme": "airplane",
-    "instruction": "Bu görselde uçak nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde uçağı bulun ve üzerine tıklayın.",
     "caption": "a large air plane flying in the air",
     "target_object": "airplane",
     "pair_id": "pair_24"
@@ -484,7 +484,7 @@
     "src": "assets/images/real/real_25.jpg",
     "kind": "real",
     "theme": "horse",
-    "instruction": "Bu görselde at nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde atı bulun ve üzerine tıklayın.",
     "caption": "A man riding a horse along a country road while herding a flock of sheep.",
     "target_object": "horse",
     "pair_id": "pair_25"
@@ -494,7 +494,7 @@
     "src": "assets/images/ai/ai_25.jpg",
     "kind": "ai",
     "theme": "horse",
-    "instruction": "Bu görselde at nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde atı bulun ve üzerine tıklayın.",
     "caption": "A man riding a horse along a country road while herding a flock of sheep.",
     "target_object": "horse",
     "pair_id": "pair_25"
@@ -504,7 +504,7 @@
     "src": "assets/images/real/real_26.jpg",
     "kind": "real",
     "theme": "car",
-    "instruction": "Bu görselde araba nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde arabayı bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "a car is sitting at a red light in traffic",
     "target_object": "car",
     "pair_id": "pair_26"
@@ -514,7 +514,7 @@
     "src": "assets/images/ai/ai_26.jpg",
     "kind": "ai",
     "theme": "car",
-    "instruction": "Bu görselde araba nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde arabayı bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "a car is sitting at a red light in traffic",
     "target_object": "car",
     "pair_id": "pair_26"
@@ -524,7 +524,7 @@
     "src": "assets/images/real/real_27.jpg",
     "kind": "real",
     "theme": "bicycle",
-    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bisikleti bulun ve üzerine tıklayın.",
     "caption": "A very big lady riding a bike on the street.",
     "target_object": "bicycle",
     "pair_id": "pair_27"
@@ -534,7 +534,7 @@
     "src": "assets/images/ai/ai_27.jpg",
     "kind": "ai",
     "theme": "bicycle",
-    "instruction": "Bu görselde bisiklet nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bisikleti bulun ve üzerine tıklayın.",
     "caption": "A very big lady riding a bike on the street.",
     "target_object": "bicycle",
     "pair_id": "pair_27"
@@ -544,7 +544,7 @@
     "src": "assets/images/real/real_28.jpg",
     "kind": "real",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "A yellow bus is parked near people on the side of the road.",
     "target_object": "bus",
     "pair_id": "pair_28"
@@ -554,7 +554,7 @@
     "src": "assets/images/ai/ai_28.jpg",
     "kind": "ai",
     "theme": "bus",
-    "instruction": "Bu görselde otobüs nesnesini bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
+    "instruction": "Bu görselde otobüsü bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.",
     "caption": "A yellow bus is parked near people on the side of the road.",
     "target_object": "bus",
     "pair_id": "pair_28"
@@ -564,7 +564,7 @@
     "src": "assets/images/real/real_29.jpg",
     "kind": "real",
     "theme": "bench",
-    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bankı bulun ve üzerine tıklayın.",
     "caption": "A wooden bench sitting on a beach next to the ocean.",
     "target_object": "bench",
     "pair_id": "pair_29"
@@ -574,7 +574,7 @@
     "src": "assets/images/ai/ai_29.jpg",
     "kind": "ai",
     "theme": "bench",
-    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde bankı bulun ve üzerine tıklayın.",
     "caption": "A wooden bench sitting on a beach next to the ocean.",
     "target_object": "bench",
     "pair_id": "pair_29"
@@ -584,7 +584,7 @@
     "src": "assets/images/real/real_30.jpg",
     "kind": "real",
     "theme": "cat",
-    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde kediyi bulun ve üzerine tıklayın.",
     "caption": "a little cat stretching by some apples",
     "target_object": "cat",
     "pair_id": "pair_30"
@@ -594,7 +594,7 @@
     "src": "assets/images/ai/ai_30.jpg",
     "kind": "ai",
     "theme": "cat",
-    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde kediyi bulun ve üzerine tıklayın.",
     "caption": "a little cat stretching by some apples",
     "target_object": "cat",
     "pair_id": "pair_30"
@@ -604,7 +604,7 @@
     "src": "assets/images/real/real_31.jpg",
     "kind": "real",
     "theme": "sink",
-    "instruction": "Bu görselde çiçek nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde çiçeği bulun ve üzerine tıklayın.",
     "caption": "The container on the sink is holding flowers and a toothbrush.",
     "target_object": "sink",
     "pair_id": "pair_31"
@@ -614,7 +614,7 @@
     "src": "assets/images/ai/ai_31.jpg",
     "kind": "ai",
     "theme": "sink",
-    "instruction": "Bu görselde çiçek nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde çiçeği bulun ve üzerine tıklayın.",
     "caption": "The container on the sink is holding flowers and a toothbrush.",
     "target_object": "sink",
     "pair_id": "pair_31"
