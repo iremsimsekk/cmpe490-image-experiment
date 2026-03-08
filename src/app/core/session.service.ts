@@ -223,7 +223,7 @@ export class SessionService {
     const trial = this.current();
     if (!trial) return;
     trial.clicks.push({ x, y, t });
-    console.log(`Click @ x:${x.toFixed(3)}, y:${y.toFixed(3)}, t:${t.toFixed(2)}`);
+   // console.log(`Click @ x:${x.toFixed(3)}, y:${y.toFixed(3)}, t:${t.toFixed(2)}`);
   }
 
   saveTrial() {
