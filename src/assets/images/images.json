@@ -123,20 +123,20 @@
     "id": "real_07",
     "src": "assets/images/real/real_07.jpg",
     "kind": "real",
-    "theme": "",
-    "instruction": "",
+    "theme": "human",
+    "instruction": "Bu görselde baseball oynayan kişiyi bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.,",
     "caption": "A baseball player swinging a ball at a bat.",
-    "target_object": "",
+    "target_object": "baseball player",
     "pair_id": "pair_07"
   },
   {
     "id": "ai_07",
     "src": "assets/images/ai/ai_07.jpg",
     "kind": "ai",
-    "theme": "",
-    "instruction": "",
+    "theme": "human",
+    "instruction": "Bu görselde baseball oynayan kişiyi bulun ve üzerine tıklayın. Birden fazla varsa en belirgin olana tıklayın.,",
     "caption": "A baseball player swinging a ball at a bat.",
-    "target_object": "",
+    "target_object": "baseball player",
     "pair_id": "pair_07"
   },
   {
@@ -323,20 +323,20 @@
     "id": "real_17",
     "src": "assets/images/real/real_17.jpg",
     "kind": "real",
-    "theme": "cat",
-    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "theme": "cow",
+    "instruction": "Bu görselde en yakın ineği bulun ve üzerine tıklayın.",
     "caption": "A herd of cattle laying in the grass on the ground.",
-    "target_object": "cat",
+    "target_object": "cow",
     "pair_id": "pair_17"
   },
   {
     "id": "ai_17",
     "src": "assets/images/ai/ai_17.jpg",
     "kind": "ai",
-    "theme": "cat",
-    "instruction": "Bu görselde kedi nesnesini bulun ve üzerine tıklayın.",
+    "theme": "cow",
+    "instruction": "Bu görselde en yakın ineği bulun ve üzerine tıklayın.",
     "caption": "A herd of cattle laying in the grass on the ground.",
-    "target_object": "cat",
+    "target_object": "cow",
     "pair_id": "pair_17"
   },
   {
@@ -344,9 +344,9 @@
     "src": "assets/images/real/real_18.jpg",
     "kind": "real",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde meyve nesnesini bulun ve üzerine tıklayın.",
     "caption": "A toddler reaches into a bowl of grapes in a sink.",
-    "target_object": "sink",
+    "target_object": "fruit",
     "pair_id": "pair_18"
   },
   {
@@ -354,9 +354,9 @@
     "src": "assets/images/ai/ai_18.jpg",
     "kind": "ai",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde meyve nesnesini bulun ve üzerine tıklayın.",
     "caption": "A toddler reaches into a bowl of grapes in a sink.",
-    "target_object": "sink",
+    "target_object": "fruit",
     "pair_id": "pair_18"
   },
   {
@@ -424,7 +424,7 @@
     "src": "assets/images/real/real_22.jpg",
     "kind": "real",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde ayna nesnesini bulun ve üzerine tıklayın.",
     "caption": "A sink under a mirror next to a door way.",
     "target_object": "sink",
     "pair_id": "pair_22"
@@ -434,7 +434,7 @@
     "src": "assets/images/ai/ai_22.jpg",
     "kind": "ai",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde ayna nesnesini bulun ve üzerine tıklayın.",
     "caption": "A sink under a mirror next to a door way.",
     "target_object": "sink",
     "pair_id": "pair_22"
@@ -604,7 +604,7 @@
     "src": "assets/images/real/real_31.jpg",
     "kind": "real",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde çiçek nesnesini bulun ve üzerine tıklayın.",
     "caption": "The container on the sink is holding flowers and a toothbrush.",
     "target_object": "sink",
     "pair_id": "pair_31"
@@ -614,7 +614,7 @@
     "src": "assets/images/ai/ai_31.jpg",
     "kind": "ai",
     "theme": "sink",
-    "instruction": "Bu görselde lavabo nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde çiçek nesnesini bulun ve üzerine tıklayın.",
     "caption": "The container on the sink is holding flowers and a toothbrush.",
     "target_object": "sink",
     "pair_id": "pair_31"
@@ -624,7 +624,7 @@
     "src": "assets/images/real/real_32.jpg",
     "kind": "real",
     "theme": "bench",
-    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde kediyi bulun ve üzerine tıklayın.",
     "caption": "A cat laying on top of a wooden bench.",
     "target_object": "bench",
     "pair_id": "pair_32"
@@ -634,7 +634,7 @@
     "src": "assets/images/ai/ai_32.jpg",
     "kind": "ai",
     "theme": "bench",
-    "instruction": "Bu görselde bank nesnesini bulun ve üzerine tıklayın.",
+    "instruction": "Bu görselde kediyi bulun ve üzerine tıklayın.",
     "caption": "A cat laying on top of a wooden bench.",
     "target_object": "bench",
     "pair_id": "pair_32"
