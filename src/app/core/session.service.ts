@@ -275,7 +275,7 @@ export class SessionService {
     try {
       const res = await lastValueFrom(
         this.http.post(
-          'https://formspree.io/f/mpwvkwdo',
+          'https://formspree.io/f/maqpnrov',
           payload,
           { headers: { 'Accept': 'application/json' } }
         )
